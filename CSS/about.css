@@ -1,0 +1,144 @@
+.abt-t1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #f34949;
+    margin: 0 0 5px 0;
+}
+
+.abt-t2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.text-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.65em;
+    margin-bottom: 0;
+}
+
+.collapse {
+    margin-top: 1em;
+}
+
+.text-4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.text-5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.abt-t4 {
+    margin: 0px; 
+    flex-basis: 100%;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.abt-link {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #e22104;
+    text-decoration: none;
+    padding: 0.4em 0;
+    line-height: 1.4em;
+    text-shadow: 0 0 5px rgb(226, 33, 4, 0.25);
+}
+
+#about-section {
+    min-height: 140vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 8em 0;
+}
+
+.about-column1 {
+    flex-basis: 42%;
+    display: flex;
+    align-items: stretch;
+}
+
+.abt-main {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(196, 191, 191);
+}
+
+.about-column2 {
+    flex-basis: 50%;
+    padding: 3em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-special {
+    flex-basis: 100%;
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.special-recipe {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    align-self: stretch;
+}
+
+.recipe {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.abt-recipre-image {
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(196, 191, 191);
+}
+
+@media (max-width:1000px) {
+
+    #about-section {
+        padding: 6em 0;
+    }
+
+    .about-column2 {
+        padding: 2em 0;
+    }
+
+}
+
+@media (max-width:768px) {
+    
+    #about-section {
+        flex-direction: column;
+        padding: 2em 0;
+    }
+
+    .about-column1 {
+        flex-basis: 500px;
+        overflow: hidden;
+    }
+
+    .about-column2 {
+        flex-basis: 650px;
+        padding: 5em 0 0 0;
+    }
+
+}

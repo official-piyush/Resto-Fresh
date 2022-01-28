@@ -1,0 +1,19 @@
+{
+  "name": "resto-fresh",
+  "version": "1.0.0",
+  "description": "This is a fully responsive food chain web application buitl using HTML, CSS and Vanilla JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Piyush",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
